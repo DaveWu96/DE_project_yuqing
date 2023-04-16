@@ -1,20 +1,20 @@
 hadoop fs -ls
 
-wget https://raw.githubusercontent.com/lipengyuan1994/DataEngineering_tutoring_project_home/main/Spark_Hello_World/retailstore.csv
+wget https://raw.githubusercontent.com/lipengyuan1994/DE_project_yuqing/master/0.00.Spark_Hello_World%20copy/retailstore.csv
 
 ls
 
-hadoop fs -mkdir /user/lpy/
+hadoop fs -mkdir /user/ganfan/
 
-hdfs dfs -mkdir /user/lpy/data
+hdfs dfs -mkdir /user/ganfan/data
 
 
-hadoop fs -put retailstore.csv /user/lpy/data
+hadoop fs -put retailstore.csv /user/ganfan/data
 
 
 hadoop fs -cat retailstore.csv
 
-hadoop fs -cat /user/lpy/data/retailstore.csv
+hadoop fs -cat /user/ganfan/data/retailstore.csv
 
 ===========Hive ============================
 hive
@@ -25,7 +25,7 @@ show databases;
 
 use pj1;
 
-create table retailcust (age INT, salary FLOAT,gender String,country String, purchased String) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' LOCATION '/user/lpy/data/' TBLPROPERTIES ("skip.header.line.count"="1") ;
+create table retailcust (age INT, salary FLOAT,gender String,country String, purchased String) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' LOCATION '/user/ganfan/data/' TBLPROPERTIES ("skip.header.line.count"="1") ;
 
 
 ========================Python=================================
