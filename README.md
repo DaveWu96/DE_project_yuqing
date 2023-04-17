@@ -7,6 +7,11 @@
 
 This repo contains the Spark code and HQL for Data Engineering practices.
 
+### Must read:
+Hadoop Cluster
+https://www.databricks.com/glossary/hadoop-cluster#:~:text=Hadoop%20clusters%20are%20composed%20of,running%20on%20a%20separate%20machine.
+HIVE 
+https://aws.amazon.com/big-data/what-is-hive/
 
 
 ### How to use key pair to log into edge node.
@@ -34,3 +39,6 @@ This command will create a public and private key pair in the default location (
     ssh -i ~/.ssh/id_rsa user@edge_node_ip
   * For Windows: Open PuTTY and enter the edge node's IP address or hostname in the "Host Name (or IP address)" field. In the left pane, navigate to Connection \> SSH \> Auth, and click the "Browse" button to select your private\_key.ppk file. Click "Open" to initiate the connection.
 5. If prompted, accept the edge node's host key by typing "yes" (Linux/Mac) or clicking "Yes" (Windows). You should now be connected to the edge node.
+
+#### for GCP specific, follow the link below:
+https://www.cyberciti.biz/faq/google-cloud-compute-engin-ssh-into-an-instance-from-linux-unix-appleosx/
