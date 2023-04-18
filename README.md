@@ -8,10 +8,12 @@
 This repo contains the Spark code and HQL for Data Engineering practices.
 
 ### Must read:
-Hadoop Cluster
+1. Hadoop Cluster
 https://www.databricks.com/glossary/hadoop-cluster#:~:text=Hadoop%20clusters%20are%20composed%20of,running%20on%20a%20separate%20machine.
-HIVE 
+2. HIVE 
 https://aws.amazon.com/big-data/what-is-hive/
+3. HDFS (Hadoop Distributed File System )
+https://www.databricks.com/glossary/hadoop-distributed-file-system-hdfs#:~:text=HDFS%20(Hadoop%20Distributed%20File%20System,handle%20and%20store%20big%20data.
 
 
 ### How to use key pair to log into edge node.
