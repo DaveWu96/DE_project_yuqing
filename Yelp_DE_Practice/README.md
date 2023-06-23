@@ -1,19 +1,19 @@
 # YELP data set Data Engineering and Machine Learning Practice (GCP)
 
-#### keyworks: Hadoop, HIVE, Spark, GCP, BigQuery, CloudStorage, DataProc, Python, SQL, Pandas, Parquet
+#### Keywords: Hadoop, HIVE, Spark, GCP, BigQuery, CloudStorage, DataProc, Python, SQL, Pandas, Parquet
 
-### Project Description:
-Practiced ELT and ML in GCP. Obtained expertise with GCP **Data Warehouse** service: **Big Query**; GCP managed **hadoop** cluster service: **DataProc**; GCP storage service: **Cloud Storage**, GCP ML/AI services: **Vertex AI**. 
-1. experienced with DataProc, to load the Yelp review data into **hadoop** file system, transformed data with **Spark** and load the data into **BigQuery**. Performed some **EDA** in **DataProc**.
-2. Used **Vertex AI** workbench and **BigQuery** to explore difference ML model's performance and explored the text reviews.
+### Project Summary:
+- Implemented Extract, Load, Transform (ELT) and Machine Learning practices using Google Cloud Platform (GCP). Enhanced expertise in GCP Data Warehouse service (Big Query), GCP managed Hadoop cluster service (DataProc), GCP storage service (Cloud Storage), and GCP ML/AI services (Vertex AI).
 
-### Key Practices In This project:
-1. Data Extraction: Using **Kaggle API** to download the Yelp Dataset to DataProc Master node. (>8GB after unzip)
-2. Data Transformation: Upload the unzipped data to **Hadoop File System**; Used **pyspark** to clean the transform the dataset, then load into **HIVE** tables in Hadoop. 
-3. Performed Exploratory Data Analysis with Pyspark and Pandas, found the best 10 popular restaurants in Philadelphia.
-4. Created DataLayer, by de-normalizing the 5 tables ( processed >320 million records); saved the data as **Parquet** format in **CloudStorage** and loaded into **BigQuery**. (Connected Dataproc cluster to CloudStorage directly, used CloudStorage as DataLake)
-5. Use Vertex AI Workbenck build ML / NLP models with the data in BigQuery;
-   1. Tokenized the text reviews, experimented with different kinds of ML models : Naive-Bayes Classifier, logistic regression Classifier, RandomForest Classifier.
-   2. Explored the text reviews in the dataset and found some important information. 
+### Key Achievements:
+1. Leveraged DataProc to load Yelp review data into Hadoop file system, transformed data using Spark, and uploaded it to BigQuery. Conducted exploratory data analysis (EDA) within DataProc.
+2. Utilized Vertex AI workbench and BigQuery to compare different ML model performances and scrutinized text reviews.
 
-
+### Project Tasks:
+1. **Data Extraction**: Utilized Kaggle API to download the Yelp Dataset (>8GB post-unzipping) to the DataProc Master node.
+2. **Data Transformation**: Uploaded unzipped data to Hadoop File System; employed pyspark for data cleaning and transformation, then loaded it into HIVE tables in Hadoop.
+3. **Exploratory Data Analysis**: Executed Exploratory Data Analysis using Pyspark and Pandas, identifying the top 10 popular restaurants in Philadelphia.
+4. **Data Layer Creation**: Created a Data Layer by de-normalizing five tables (processed >320 million records); saved data as Parquet format in Cloud Storage and loaded it into BigQuery. DataProc cluster was connected directly to CloudStorage, using it as a Data Lake.
+5. **Machine Learning/NLP Modeling**: Used Vertex AI Workbench to build ML/NLP models with data in BigQuery;
+   1. Executed text review tokenization, experimented with various ML models including Naive-Bayes Classifier, Logistic Regression Classifier, and RandomForest Classifier.
+   2. Conducted detailed text review exploration in the dataset to gather significant insights.
